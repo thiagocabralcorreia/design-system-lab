@@ -1,5 +1,7 @@
 import { themes } from "@storybook/theming";
 
+import "../src/styles/global.css"; // global styles for storybook
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
